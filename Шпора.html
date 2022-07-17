@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>WEB шпоргалка</title>
+</head>
+
+<body>
+	<h1>Study</h1>
+	<div><!--Тип документа <!DOCTYPE>-->
+		Тип документа
+		<pre class="brd cd">
+			<code>&lt;!DOCTYPE html&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--простая страница <head>, <body>-->
+		<p>Самая простая HTML страница</p>
+		<p>Служебная информация. Тут содержится заголовок, ключевые слова и другие служебные данные</p>
+		<pre class="brd cd">
+			<code>&lt;head&gt;
+
+			&lt;/head&gt;</code>
+		</pre>
+		<p>Контент страницы</p>
+		<pre class="brd cd">
+			<code>&lt;body&gt;
+
+			&lt;/body&gt;</code>
+		</pre>
+		<pre class="brd cd">
+			<code>
+			&lt;!DOCTYPE html&gt;
+			&lt;html lang="ru"&gt;
+			&lt;head&gt;
+
+			&lt;/head&gt;
+			&lt;body&gt;
+
+			&lt;/body&gt;
+			&lt;/html&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Комментарий-->
+		Комментарий
+		<pre class="brd cd">
+			<code>&lt;!--[Текст]--&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Подключение файла <link>-->
+		Подключение файла
+		<pre class="brd cd">
+			<code>
+			&lt;head&gt;
+				&lt;link href="адрес_файла_стилей.css" rel="stylesheet"&gt;
+			&lt;/head&gt;
+			</code>
+		</pre>
+	</div>
+
+	<div><!--Заголовок страницы <title>-->
+		Заголовок страницы
+		<pre class="brd cd">
+			<code>
+			&lt;head&gt;
+				&lt;title&gt;WEB шпоргалка&lt;/title&gt;
+			&lt;/head&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Основное содержание <main>-->
+		<p>Заголовок страницы. На страйнице может быть только один main</p>
+		<pre class="brd cd">
+			<code>
+			&lt;body&gt;    
+				&lt;main&gt;
+			   
+				&lt;/main&gt;
+			&lt;/body&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Шапка, основное содержимое страницы и подвал <header>, <main>, <footer>-->
+		<p>Шапка, основное содержимое страницы и подвал</p>
+		<pre class="brd cd">
+			<code>
+			&lt;header&gt;
+				Шапка
+			&lt;/header&gt;
+			&lt;main&gt;
+				Контент
+			&lt;/main&gt;
+			&lt;footer&gt;
+				Подвал
+			&lt;/footer&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Смысловой раздел <section>-->
+		<p>Смысловой раздел</p>
+		<pre class="brd cd">
+			<code>
+			&lt;section&gt;
+				
+			&lt;/section&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Навигация по сайту <nav>-->
+		<p>Навигация по сайту</p>
+		<pre class="brd cd">
+			<code>
+			&lt;nav&gt;
+				
+			&lt;/nav&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Независимый раздел <article>-->
+		<p>Независимый раздел</p>
+		<pre class="brd cd">
+			<code>
+			&lt;article&gt;
+				
+			&lt;/article&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Боковая панель <aside>-->
+		<p>Боковая панель</p>
+		<pre class="brd cd">
+			<code>
+			&lt;aside&gt;
+				
+			&lt;/aside&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Заголовки <h1>-<h6>-->
+		<p>Заголовки h1-h6</p>
+		<pre class="brd cd">
+			<code>
+			&lt;h1&gt;
+				
+			&lt;/h1&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Параграф <p>-->
+		<p>Параграф</p>
+		<pre class="brd cd">
+			<code>
+			&lt;p&gt;
+				
+			&lt;/p&gt;</code>
+		</pre>
+	</div>
+
+	<div><!--Метаинформация-служебная информация <meta>-->
+		<p>Метаинформация-служебная информация</p>
+		<p>Атрибуты - <b>charset, content, http-equiv, name и scheme</b></p>
+		<pre class="brd cd">
+			<code>
+			&lt;meta&gt;</code>
+		</pre>
+
+
+	</div>
+
+	<div><!--Не упорядочный список <ul>-->
+		<p>Не упорядочный список</p>
+		<pre class="brd cd">
+			<code>
+			&lt;ul&gt;
+				&lt;li&gt;Текст 1&lt;/li&gt;
+				&lt;li&gt;Текст 2&lt;/li&gt;
+				&lt;li&gt;Текст 3&lt;/li&gt;
+			&lt;/ul&gt;</code>
+		</pre>
+
+		<p>Пример:</p>
+		<ul>
+			<li>Текст 1</li>
+			<li>Текст 2</li>
+			<li>Текст 3</li>
+		</ul>
+	</div>
+
+	<div><!--Упорядочный список <ol>-->
+		<p>Упорядочный список</p>
+		<p>Доп. атрибуты - <b>start</b> (Начало отсчета) и <b>reversed</b> (меняет порядок на противоположный)</p>
+		<pre class="brd cd">
+			<code>
+			&lt;ol&gt;
+				&lt;li&gt;Текст 1&lt;/li&gt;
+				&lt;li&gt;Текст 2&lt;/li&gt;
+				&lt;li&gt;Текст 3&lt;/li&gt;
+			&lt;/ol&gt;</code>
+		</pre>
+		<p>Пример:</p>
+		<ol>
+			<li>Текст 1</li>
+			<li>Текст 2</li>
+			<li>Текст 3</li>
+		</ol>
+	</div>
+
+	<div><!--Вложенные списки <>-->
+		<p></p>
+		<pre class="brd cd">
+			<code>
+			&lt;ol&gt;
+				&lt;li&gt;Текст 1
+					&lt;ul&gt;
+						&lt;li&gt;Текст 2
+						&lt;li&gt;Текст 3
+					&lt;/ul&gt;
+				&lt;/li&gt;
+			&lt;/ol&gt;</code>
+		</pre>
+
+		<p>Пример:</p>
+		<ol>
+			<li>Текст 1
+				<ul>
+					<li>Текст 2
+					<li>Текст 3
+				</ul>
+			</li>
+		</ol>
+	</div>
+	
+	<div><!--Список описаний <dl>, <dt>, <dd> -->
+		<p>Список описаний</p>
+		<ul>
+			<li>&lt;dl&gt; (сокращение от «description list») обозначает сам список описаний;</li>
+			<li>&lt;dt&gt; (сокращение от «description term») обозначает термин;</li>
+			<li>&lt;dd&gt; (сокращение от «description definition») обозначает описание или определение.</li>
+		</ul>
+		<pre class="brd cd">
+			<code>
+			&lt;dl&gt;
+				&lt;dt&gt;&lt;/dt&gt;
+				&lt;dd&gt;&lt;/dd&gt;
+				&lt;dt&gt;&lt;/dt&gt;
+				&lt;dd&gt;&lt;/dd&gt;
+				&lt;dd&gt;&lt;/dd&gt;
+			&lt;/dl&gt;</code>
+		</pre>
+		<p>Пример:</p>
+		<dl>
+			<dt>HTML</dt>
+			<dd>Язык гипертекстовой разметки</dd>
+			<dt>CSS</dt>
+			<dd>Каскадные таблицы стилей</dd>
+			<dd>Язык для оформления HTML-документов</dd>
+		  </dl>
+	</div>
+
+	<div><!--Преформатированный текст <pre>-->
+		<p>Преформатированный текст &lt;pre&gt;></pre></p>
+		<pre class="brd cd">
+			<code>
+			&lt;pre&gt;
+				&lt;p&gt; Hello
+				
+world&lt;/p&gt;
+			&lt;pre&gt;</code>
+		</pre>
+		<p>Пример:</p>
+		<pre>
+			<p> Hello
+				
+				world</p>
+		</pre>
+	</div>
+
+	<div><!--Символы-мнемоники в HTML-->
+		<p>Символы-мнемоники в HTML &lt;, &gt;, &copy;, &laquo;, &raquo;, &sect;</p>
+		<pre class="brd cd">
+			<code>
+				&amp;lt;p&amp;gt;Hello world&amp;lt;p&amp;gt;
+			</code>
+		</pre>
+		<p>Пример:</p>
+		<p>Hello world</p>
+	</div>
+
+	<div><!--Фрагмент кода <code>-->
+		<p>Фрагмент кода &lt;code&gt;</p>
+		<p>Обозначения фрагментов кода есть специальный тег</p>
+		<pre class="brd cd">
+			<code>
+			&lt;code&gt;
+				&lt;p&gt;Hello world&lt;p&gt;
+			&lt;/code&gt;</code>
+		</pre>
+		<p>Пример:</p>
+		<code>&lt;p&gt;Hello world&lt;p&gt;</code>
+	</div>
+
+	<div><!--Встроенная цитата <q>-->
+		<p>Встроенная цитата &lt;q&gt;</p>
+		<p>Если известен интернет-адрес цитаты, то его можно указать в атрибуте cite</p>
+		<p> Не путать с тегом &lt;cite&gt;. Обозначения предназначен для выделения названия работы (например, книг, песен, фильмов, живописи, разных шоу и тд)</p>
+		<pre class="brd cd">
+			<code>
+			&lt;p&gt;По словам &lt;cite&gt;Чарльза Буковски&lt;/cite&gt; — &lt;q&gt;Интеллектуал о простой вещи говорит сложно — художник сложную вещь описывает простыми словами.&lt;/q&gt;&lt;/p&gt;</code>
+		</pre>
+		<p>Пример:</p>
+		<p>По словам <cite>Чарльза Буковски</cite> — <q>Интеллектуал о простой вещи говорит сложно — художник сложную вещь описывает простыми словами.</q></p>
+	</div>
+
+	<div><!--Отдельная цитата <blockquote>-->
+		<p>Отдельная цитата &lt;blockquote&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;blockquote&gt;
+				&lt;p&gt;Ум ценится дорого, когда дешевеет сила.&lt;/p&gt;
+				&lt;cite&gt;Джейсон Стэтхэм&lt;/cite&gt;
+			&lt;/blockquote&gt;</code>
+		</pre>
+
+		<p>Пример:</p>
+		<blockquote>
+			<p>Ум ценится дорого, когда дешевеет сила.</p>
+			<cite>Джейсон Стэтхэм</cite>
+		  </blockquote>
+	</div>
+
+	<div><!--Перенос строки <br>-->
+		<p>Перенос строки &lt;br&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;p&gt;Lorem ipsum dolor &lt;br&gt; sit amet.&lt;/p&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+		<p>Lorem ipsum dolor<br> sit amet.</p>
+	</div>
+
+	<div><!--Верхний и нижний индексы <sup>, <sub>-->
+		<p>Верхний и нижний индексы &lt;sup&gt;, &lt;sub&gt;</p>
+		<pre class="brd cd">
+			<code>
+			H&lt;sup&gt;2&lt;/sup&gt;0
+			H&lt;sub&gt;2&lt;/sub&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+		H<sup>2</sup>0<br>
+		H<sub>2</sub>0
+	</div>
+
+	<div><!--Дата и время <time>-->
+		<p>Дата и время &lt;time&gt;. В атрибуте datetime указывается время для машины в формате ISO 8601. YYYY-MM-DD, hh:mm:ss,<br> YYYY-MM-DDThh:mm:ss±hh (9 августа 2005 года 18 часов 31 минута 42 секунды UTC-03 часа)</p>
+		<pre class="brd cd">
+			<code>
+				&lt;time datetime="2016-11-18T09:54"&gt;09:54 утра&lt;/time&gt;
+			</code>
+		</pre>
+
+		<p>Пример:</p>
+		<time datetime="2016-11-18T09:54">09:54 утра</time>
+	</div>
+
+	<div><!--Акцентирование внимания <em>, <i>-->
+		<p>Акцентирование внимания &lt;em&gt;, &lt;i&gt;</p>
+		<p>Тег &lt;em&gt; определяет текст, на который сделан особый акцент, меняющий смысл предложения.</p>
+		<p>Тег &lt;i&gt; применяется для обозначения текста, который отличается от окружающего текста, но не является более важным. Например, в &lt;i&gt; можно заключать названия, термины, иностранные слова.</p>
+		<pre class="brd cd">
+			<code>
+			&lt;p&gt;Я &lt;em&gt;просто обожаю&lt;/em&gt; холодные зимние дни!&lt;/p&gt;
+			&lt;p&gt;Он взглянул в окно и подумал — &lt;i&gt;такого просто не может быть&lt;/i&gt;!&lt;/p&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+		<p>Я <em>просто обожаю</em> холодные зимние дни!</p>
+		<p>Он взглянул в окно и подумал — <i>такого просто не может быть</i>!</p>
+	</div>
+
+	<div><!--Важность и выделение <strong>, <b>-->
+		<p>Важность и выделение &lt;strong&gt;, &lt;b&gt;</p>
+		<p>Тег &lt;strong&gt; указывает на важность отмеченного текста. Он может использоваться для выделения предупреждений или части документа, которую пользователь должен увидеть раньше остального. При этом обозначение части текста тегом &lt;strong&gt; не должно изменять смысла предложения.</p>
+		<p>Тег &lt;b&gt; предназначен для выделения текста с целью привлечения к нему внимания, но без придания ему особой важности. Использовать его нужно только в случае, когда остальные теги выделения не подходят. Типичный пример — выделение вводного предложения статьи.</p>
+		<pre class="brd cd">
+			<code>
+			&lt;p&gt;&lt;strong&gt;Внимание!&lt;/strong&gt;Это место опасно. &lt;strong&gt;Вы можете упасть в пропасть&lt;/strong&gt;, если подойдёте близко к краю.&lt;/p&gt;
+			&lt;p&gt;Вы входите в небольшую комнату. Ваш &lt;b&gt;меч&lt;/b&gt; загорается ярче. &lt;b&gt;Крыса&lt;/b&gt; стремительно пробегает вдоль стены.&lt;/p&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+		<p><strong>Внимание!</strong> Это место опасно. <strong>Вы можете упасть в пропасть</strong>, если подойдёте близко к краю.</p>
+		<p>Вы входите в небольшую комнату. Ваш <b>меч</b> загорается ярче. <b>Крыса</b> стремительно пробегает вдоль стены.</p>
+	</div>
+
+	<div><!--Выделение изменений <del>, <ins>-->
+		<p>Выделение изменений &lt;del&gt;, &lt;ins&gt;</p>
+		<p>Тег &lt;del&gt; выделяет текст, который был удалён в новой версии документа. В браузере этот текст перечёркивается.</p>
+		<p>Тег &lt;ins&gt; выделяет текст, который был добавлен в новой версии документа. В браузере этот текст подчёркивается.</p>
+		<pre class="brd cd">
+			<code>
+			&lt;del datetime="2009-10-11T01:25-07:00"&gt;Погулять&lt;/del&gt;
+			&lt;ins&gt;Купить принтер&lt;/ins&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+		<del datetime="2009-10-11T01:25-07:00">Погулять</del><br>
+		<ins>Купить принтер</ins>
+	</div>
+
+	<div><!--Контейнеры для стилизации <div>, <span>-->
+		<p>Тег &lt;div&gt; обычно используется для группировки крупных элементов, например, нескольких абзацев, или в качестве контейнера для создания сеток страниц. А &lt;span&gt; используется для выделения мелких текстовых элементов: частей слов, отдельных слов или фраз, состоящих из нескольких слов</p>
+		<pre class="brd cd">
+			<code>
+				<div style="background-color: antiquewhite;">
+				  <p>Мы два красивых выделенных абзаца.</p>
+				  <p>С жёлтеньким фоном!</p>
+				</div>
+				<p>Текст, в котором <span style="background-color: aquamarine;">выделена фраза</span>.</p>
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+	<div><!--<>-->
+		<p> &lt;&gt;</p>
+		<pre class="brd cd">
+			<code>
+			&lt;&gt;
+
+			&lt;/&gt;
+		</code>
+		</pre>
+
+		<p>Пример:</p>
+
+	</div>
+
+</body>
+</html>
